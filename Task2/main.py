@@ -24,7 +24,7 @@ if __name__ == '__main__':
         pData[i] = list(map(float, pData[i]))
         if (cData[0][0] - pData[i][0]) ** 2 + (cData[0][1] - pData[i][1]) ** 2 == cData[1][0] ** 2:
             pData[i] = 0
-        elif (1 - pData[i][0]) ** 2 + (1 - pData[i][1]) ** 2 < 25:
+        elif (1 - pData[i][0]) ** 2 + (1 - pData[i][1]) ** 2 < cData[1][0] ** 2:
             pData[i] = 1
         else:
             pData[i] = 2
