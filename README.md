@@ -9,5 +9,5 @@
 Например:
 
     test2.py -с сdata -p pdata
-    test3.py -t tests.json -v values
+    test3.py -t tests.json -v values.json
     test4.py -n data
