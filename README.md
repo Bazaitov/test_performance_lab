@@ -8,7 +8,8 @@
 * Для четвертого задания: -n / --name
 
 Например:
-    test1.py -n 5 -m 4
-    test2.py -с сdata -p pdata
-    test3.py -t tests.json -v values.json
+
+    test1.py -n data
+    test2.py -s sdata -p pdata
+    test3.py -d data
     test4.py -n data
