@@ -25,7 +25,6 @@ if __name__ == '__main__':
     with open(namespace.tests, "r") as tests_file:
         tests_json = tests_file.read()
     tests =json.loads(tests_json)
-    print(tests['tests'])
 
     with open(namespace.values, "r") as my_file:
         values_json = my_file.read()
